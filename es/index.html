@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifetime Expeditions - Viajes y Experiencias</title>
+    <style>
+        :root {
+            --verde: #123629;
+            --dorado: #B88A3A;
+            --crema: #F8F6F2;
+            --gris: #3F4543;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--crema);
+            color: var(--gris);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--crema);
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--verde);
+            letter-spacing: 2px;
+        }
+        .hero {
+            background-color: var(--verde);
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 20px auto;
+            color: var(--crema);
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--dorado);
+            color: #ffffff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #9a722e;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            color: var(--verde);
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        .cards-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 280px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            border-top: 4px solid var(--dorado);
+        }
+        .card h3 {
+            color: var(--verde);
+        }
+        footer {
+            background-color: var(--verde);
+            color: var(--crema);
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <div class="logo-text">LIFETIME EXPEDITIONS</div>
+        <div>
+            <a href="../en/" style="color: var(--verde); text-decoration: none; font-weight: bold;">English / Español</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>LIFETIME EXPEDITIONS</h1>
+        <p><strong>Explora. Descubre. Vive.</strong></p>
+        <p>Creamos experiencias de viaje auténticas para quienes desean conocer el mundo de una manera diferente. Desde los Andes hasta Galápagos y destinos naturales extraordinarios, diseñamos aventuras que permanecen contigo para toda la vida.</p>
+        <a href="#contacto" class="btn">Explorar Expediciones</a>
+    </div>
+
+    <section>
+        <h2 class="section-title">Viajes que dejan huella</h2>
+        <p style="text-align: center; max-width: 800px; margin: auto;">En Lifetime Expeditions creemos que un viaje debe ser mucho más que un destino. Diseñamos experiencias cuidadosamente planificadas que combinan naturaleza, aventura, cultura y comodidad para que disfrutes cada momento con tranquilidad.</p>
+    </section>
+
+    <section style="background-color: #ffffff;">
+        <h2 class="section-title">Nuestras Experiencias</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>🏔 Andes</h3>
+                <p>Volcanes, montañas, senderismo y paisajes únicos.</p>
+            </div>
+            <div class="card">
+                <h3>🐢 Galápagos</h3>
+                <p>Descubre uno de los ecosistemas más extraordinarios del planeta.</p>
+            </div>
+            <div class="card">
+                <h3>🌴 Costa & Tropical</h3>
+                <p>Playas, naturaleza, relajación y aventura junto al mar.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p><strong>Lifetime Expeditions</strong></p>
+        <p>Explora • Descubre • Vive</p>
+        <p>📍 Ecuador | ✉ contacto@lifetimeexpeditions.com | 📞 +593 XXX XXX XXX</p>
+        <p>© 2026 Lifetime Expeditions. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
