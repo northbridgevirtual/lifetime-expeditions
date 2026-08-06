@@ -21,17 +21,27 @@
         }
         header {
             background-color: #ffffff;
-            padding: 20px 40px;
+            padding: 15px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid var(--crema);
         }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+        }
+        .logo-container img {
+            height: 55px;
+            width: auto;
+        }
         .logo-text {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: bold;
             color: var(--verde);
-            letter-spacing: 2px;
+            letter-spacing: 1px;
         }
         .hero {
             background-color: var(--verde);
@@ -104,9 +114,12 @@
 <body>
 
     <header>
-        <div class="logo-text">LIFETIME EXPEDITIONS</div>
+        <a href="#" class="logo-container">
+            <img src="../logo.png" alt="Lifetime Expeditions Logo">
+            <span class="logo-text">LIFETIME EXPEDITIONS</span>
+        </a>
         <div>
-            <a href="../en/" style="color: var(--verde); text-decoration: none; font-weight: bold;">English / Español</a>
+            <a href="../en/" style="color: var(--verde); text-decoration: none; font-weight: bold; font-size: 14px; background: var(--crema); padding: 8px 15px; border-radius: 4px;">English</a>
         </div>
     </header>
 
@@ -114,7 +127,7 @@
         <h1>LIFETIME EXPEDITIONS</h1>
         <p><strong>Explora. Descubre. Vive.</strong></p>
         <p>Creamos experiencias de viaje auténticas para quienes desean conocer el mundo de una manera diferente. Desde los Andes hasta Galápagos y destinos naturales extraordinarios, diseñamos aventuras que permanecen contigo para toda la vida.</p>
-        <a href="#contacto" class="btn">Explorar Expediciones</a>
+        <a href="#contacto" class="btn">Explorar Experiencias</a>
     </div>
 
     <section>
